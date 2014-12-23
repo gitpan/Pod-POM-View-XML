@@ -3,7 +3,7 @@ BEGIN {
   $Pod::POM::View::XML::AUTHORITY = 'cpan:YANICK';
 }
 # ABSTRACT: XML view of a Pod Object Model
-$Pod::POM::View::XML::VERSION = '0.0.1';
+$Pod::POM::View::XML::VERSION = '0.0.2';
 
 
 use strict;
@@ -14,7 +14,7 @@ use parent qw( Pod::POM::View );
 use vars qw( $VERSION $DEBUG $ERROR $AUTOLOAD );
 
 use PerlX::Maybe;
-use XML::Writer;
+use XML::Writer 0.620;
 use Escape::Houdini qw/ escape_xml /;
 
 
@@ -405,7 +405,7 @@ Pod::POM::View::XML - XML view of a Pod Object Model
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 

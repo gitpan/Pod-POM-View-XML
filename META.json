@@ -35,7 +35,7 @@
             "Escape::Houdini" : "0",
             "PerlX::Maybe" : "0",
             "Pod::POM::View" : "0",
-            "XML::Writer" : "0",
+            "XML::Writer" : "0.620",
             "parent" : "0",
             "strict" : "0",
             "vars" : "0"
@@ -56,7 +56,7 @@
    "provides" : {
       "Pod::POM::View::XML" : {
          "file" : "lib/Pod/POM/View/XML.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
@@ -71,7 +71,7 @@
          "web" : "https://github.com/yanick/Pod-POM-View-XML"
       }
    },
-   "version" : "0.0.1",
+   "version" : "0.0.2",
    "x_author_pledge" : {
       "version" : 1
    },

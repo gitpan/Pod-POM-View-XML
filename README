@@ -2,7 +2,7 @@ NAME
     Pod::POM::View::XML - XML view of a Pod Object Model
 
 VERSION
-    version 0.0.1
+    version 0.0.2
 
 SYNOPSIS
         use Pod::POM;

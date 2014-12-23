@@ -18,7 +18,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@babyl.dyndns.org>"
   ],
   "dist_name" => "Pod-POM-View-XML",
-  "dist_version" => "0.0.1",
+  "dist_version" => "0.0.2",
   "license" => "perl",
   "module_name" => "Pod::POM::View::XML",
   "recommends" => {},
@@ -28,7 +28,7 @@ my %module_build_args = (
     "Escape::Houdini" => 0,
     "PerlX::Maybe" => 0,
     "Pod::POM::View" => 0,
-    "XML::Writer" => 0,
+    "XML::Writer" => "0.620",
     "parent" => 0,
     "strict" => 0,
     "vars" => 0
